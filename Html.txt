@@ -1,0 +1,122 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Robert Gil | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .header {
+            background-color: #c19a6b ;
+            color: white;
+            text-align: center;
+            padding: 60px;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: #696969;
+            justify-content: space-around;
+            padding: 14px 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .left-column {
+            flex: 30%;
+            padding-right: 20px;
+        }
+
+        .right-column {
+            flex: 70%;
+        }
+
+        .card {
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: #ddd;
+            text-align: center;
+            padding: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            background-color: #ccc;
+        }
+
+        @media (max-width: 768px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Hi, I'm Ivan  Gil </h1>
+    <p>Your Future Web Developer</p>
+</div>
+
+<div class="navbar">
+    <a href="">About</a>
+    <a href="#">Skills</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+</div>
+
+<div class="row">
+    <div class="left-column">
+        <div class="card">
+            <h2>This is my picture</h2>
+            <img src="https://i.ibb.co/Mk7qr4sJ/IMG-2717.jpg" alt="IMG-2717">
+            <p>Hi! I'm Ivan Gil. As an ambitious web developer, I am driven to create functional, user-friendly websites that make an impression. I'm excited to study and progress in this exciting area, understanding languages such as HTML, CSS, JavaScript, and more. </p>
+        </div>
+        <div class="card">
+            <h3>Skills</h3>
+            <p> HTML </p>
+            <p> CSS </p>
+            <p> JavaScript </p>
+        </div>
+    </div>
+
+    <div class="right-column">
+        <div class="card">
+            <h2>More Info</h2>
+            <h5>I love Going To Nature</h5>
+            <img src="https://i.ibb.co/Dx1Sjfs/IMG-9201.jpg" alt="IMG-9201">
+            <p>I feel at peace when I'm surrounded by nature the sound of the wind in the trees and the warmth of the sun just make everything better. It's like a reset button for my mind, reminding me to slow down and just breathe.</p>
+        </div>
+        <div class="card">
+            <h2>More Projects Coming This Year So Stay Tuned</h2>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <h2>Contact Me</h2>
+    <a href="https://www.facebook.com/share/15tnsjaFZz/?mibextid=wwXIfr" >Link Text</a>
+
+</div>
+
+</body>
+</html>
